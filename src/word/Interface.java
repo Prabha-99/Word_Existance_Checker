@@ -22,7 +22,7 @@ public class Interface extends javax.swing.JFrame {
             indexOut.setText(String.valueOf(words.indexOf(word))); //Printting the integer values as Strings into Jlabels
             wordCountOut.setText(String.valueOf(words.size()));     
         }else{
-            errorLabel.setText("Sorry..Word Doesn't Exist");
+            errorLabel.setText("Sorry..the Word you entered doesn't exist in the Sentence");
             }          
         }
             
