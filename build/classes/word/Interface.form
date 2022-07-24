@@ -53,22 +53,19 @@
                           </Group>
                           <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="wordCountOut" linkSize="6" min="-2" max="-2" attributes="0"/>
-                                      <Component id="errorLabel" min="-2" pref="353" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="36" pref="86" max="32767" attributes="0"/>
-                              </Group>
-                              <Group type="102" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
                                   <Component id="indexOut" linkSize="6" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="checkButton" min="-2" pref="86" max="-2" attributes="0"/>
+                                  <Component id="checkButton" linkSize="7" min="-2" pref="86" max="-2" attributes="0"/>
                               </Group>
+                              <Component id="wordCountOut" linkSize="6" min="-2" max="-2" attributes="0"/>
+                              <Component id="errorLabel" min="-2" pref="353" max="-2" attributes="0"/>
                           </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jButton1" linkSize="7" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" attributes="0">
-                          <EmptySpace pref="52" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="wordLabel" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Component id="sentenceLabel" alignment="0" min="-2" pref="162" max="-2" attributes="0"/>
@@ -116,21 +113,24 @@
                   </Group>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="checkButton" min="-2" pref="36" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="indexLabel" linkSize="3" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
                               <Component id="indexOut" linkSize="3" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="wordCountLabel" linkSize="3" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
-                              <Component id="wordCountOut" linkSize="3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="checkButton" linkSize="8" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="jButton1" linkSize="8" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="wordCountLabel" linkSize="3" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                      <Component id="wordCountOut" linkSize="3" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="errorLabel" min="-2" pref="25" max="-2" attributes="0"/>
@@ -242,6 +242,17 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
           </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Fax" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Clear"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>
