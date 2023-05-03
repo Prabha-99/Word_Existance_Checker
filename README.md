@@ -3,4 +3,4 @@ A small Java program with a simple Swing interface that allow user to input  a s
 
 ## The Main GUI(Designed Usign Java-Swing)
 
-![MainGUI!](F:\Projects\word_Existance_Checker\Image\Interface_image.PNG)
+![MainGUI!](\Image\Interface_image.PNG)
