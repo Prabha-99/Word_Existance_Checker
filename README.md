@@ -3,4 +3,4 @@ A small Java program with a simple Swing interface that allow user to input  a s
 
 ## The Main GUI(Designed Usign Java-Swing)
 
-![MainGUI!](\Image\Interface_image.PNG)
+![MainGUI!](Interface_image.PNG)
