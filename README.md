@@ -16,4 +16,4 @@ A small Java program with a simple Swing interface that allow user to input  a s
 ## Requirements
 
 * JDK 8 or Later..
-* Netbeans 10 or Later..
+* Netbeans 10 or Later...
